@@ -1,6 +1,8 @@
-package br.upe.ppsw.jabberpoint.apresentacao;
+package model;
 
 import java.util.ArrayList;
+
+import view.SlideViewerComponent;
 
 public class Presentation {
 
@@ -57,8 +59,8 @@ public class Presentation {
       setSlideNumber(currentSlideNumber + 1);
     }
   }
-
-  void clear() {
+  
+  public void clear() {
     showList = new ArrayList<Slide>();
     setSlideNumber(-1);
   }

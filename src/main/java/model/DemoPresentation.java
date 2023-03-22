@@ -1,4 +1,4 @@
-package br.upe.ppsw.jabberpoint.apresentacao;
+package model;
 
 import java.io.FileNotFoundException;
 import org.springframework.util.ResourceUtils;
@@ -21,8 +21,8 @@ public class DemoPresentation extends Accessor {
     slide.append(4, "JabberPoint execução de demonstração sem arquivos persistidos");
     slide.append(4, "exibição de apresentação com dados apenas em memória");
     slide.append(1, "Navegação:");
-    slide.append(3, "Próximo slide: PgDn ou Enter");
-    slide.append(3, "Slide Anterior: PgUp ou up-arrow");
+    slide.append(3, "Próximo slide: PgDn, Enter ou Direita");
+    slide.append(3, "Slide Anterior: PgUp, up-arrow ou Esquerda");
     slide.append(3, "Parar: q ou Q");
     presentation.append(slide);
 
